@@ -1,0 +1,14 @@
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\bin\Debug\net6.0\ConsoleCalculatorPlus.exe
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\bin\Debug\net6.0\ConsoleCalculatorPlus.deps.json
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\bin\Debug\net6.0\ConsoleCalculatorPlus.runtimeconfig.json
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\bin\Debug\net6.0\ConsoleCalculatorPlus.dll
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\bin\Debug\net6.0\ConsoleCalculatorPlus.pdb
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.AssemblyInfoInputs.cache
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.AssemblyInfo.cs
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.csproj.CoreCompileInputs.cache
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.dll
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\refint\ConsoleCalculatorPlus.dll
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.pdb
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ConsoleCalculatorPlus.genruntimeconfig.cache
+D:\Solutions\ConsoleCalculatorPlus\ConsoleCalculatorPlus\obj\Debug\net6.0\ref\ConsoleCalculatorPlus.dll
