@@ -5,15 +5,16 @@
         static void Main(string[] args)
         {
             string[] typesOfCalc = { "Basic", "Advanced" },
-                     basicMethods = { "+", "-", "*", "/", "^" };
+                     basicMethods = { "+", "-", "*", "/", "^", "sqrt" };
             string userChoiseCalc, userChoiseMethod, again;
-            float number1, number2;
-            int? result;
+            double number1, number2;
+            double? result;
             bool? userResult;
 
             // Info about calculator
-            Console.WriteLine("Console Calculator+ Alpha 1.5\nCreator: IbrahimIsazade\n");
+            Console.WriteLine("Console Calculator+ Alpha 2.0\nCreator: IbrahimIsazade\n");
 
+            // Getting type of calculator
             do
             {
                 Console.WriteLine();
@@ -39,14 +40,18 @@
                     do
                     {
                         Console.WriteLine();
+                        number1 = double.Parse(Input("Enter first number"));
                         LogEveryElement(basicMethods);
                         userChoiseMethod = Input("\nEnter your method");
                         if (Array.Exists(basicMethods, method => method == userChoiseMethod))
                         {
-                            number1 = float.Parse(Input("Enter first number"));
-                            number2 = float.Parse(Input("Enter second number"));
-                            result = (int?)CalculateThis(userChoiseMethod, number1, number2);
-                            Console.WriteLine($"{number1}{userChoiseMethod}{number2} = {result}");
+                            if (userChoiseMethod != "sqrt")
+                            {
+
+                                number2 = double.Parse(Input("Enter second number"));
+                            }
+                            result = (double?)CalculateThis(userChoiseMethod, number1, number2 = 2);
+                            Console.WriteLine($"{number1} {userChoiseMethod} {number2} = {result}");
                         }
                         else
                         {
@@ -66,6 +71,7 @@
 
         }
 
+        // As name of func
         static void LogEveryElement(string[] args)
         {
             foreach (var item in args)
@@ -81,6 +87,7 @@
             }
         }
 
+        // ReadLine
         static string Input(string text)
         {
             Console.Write(text + ": ");
@@ -88,32 +95,33 @@
             return res;
         }
 
-        static double CalculateThis(string method, float num1, float num2)
+        // Calculator
+        static double CalculateThis(string method, double num1, double num2)
         {
             switch (method)
             {
                 case "+":
                     return num1 + num2;
-                    break;
+
                 case "-":
                     return num1 - num2;
-                    break;
+
                 case "*":
                     return num1 * num2;
-                    break;
+
                 case "/":
-                    return 5 / 2;
-                    break;
+                    return (double)num1 / num2;
+
                 case "**":
-                    for (float power = num1; num2 != 1; num2--)
+                    for (double power = num1; num2 != 1; num2--)
                     {
                          num1 *= power;
                     }
                     return num1;
-                    break;
+
                 case "sqrt":
-                    return 0;
-                    break;
+                    return Math.Sqrt(num1);
+
                 default:
                     return 0;
             }
