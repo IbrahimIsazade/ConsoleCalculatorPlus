@@ -5,4 +5,4 @@ A console calculator with many other advanced functions. the project might be su
 
 # How to start project ?
 
-Go to folder named `ConsoleCalculatorPlus/bin/Debug/net6.0` there you can see `ConsoleCalculatorPlus.exe` run it.
+Go to folder named `ConsoleCalculatorPlus/bin/Debug/net6.0` there you can see `ConsoleCalculatorPlus.exe` run it. *I will add a shortcut on next update*
